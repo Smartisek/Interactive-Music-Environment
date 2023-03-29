@@ -66,12 +66,12 @@ function setup() {
 
   // Adding circles to an array
   for(let i=0; i<6; i++){
-    balloons[i] = new Balloon(random(280,550), random(380,520), random(15,30));
+    balloons[i] = new Balloon(random(280,550), random(380,520), random(20,35));
   }
 
   // Adding squares to an array
   for(let s=0; s<6; s++){
-    squares[s] = new Square(random(780, 920), random(380,520), random(15,40));
+    squares[s] = new Square(random(780, 920), random(380,520), random(20,40));
   }
 
   fft = new p5.FFT(0, 2048);
