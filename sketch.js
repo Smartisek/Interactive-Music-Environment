@@ -330,4 +330,6 @@ function previous(){
 // http://danielstern.ca/range.css/?ref=css-tricks#/
 // https://classroomclipart.com/clipart-view/Clipart/Entertainment/portable-radio-clipart_jpg.htm
 // https://freesound.org/people/cabled_mess/sounds/396119/
-// 
+
+// All other resources in word document:
+// https://studentdkit-my.sharepoint.com/:w:/g/personal/d00260467_student_dkit_ie/Ebbr5nG_gu5NvTG07QyAmWQBYHDqGQzWzs_24aUODN0pZg?e=MRoNFZ
