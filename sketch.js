@@ -65,12 +65,12 @@ function setup() {
   createCanvas(1500, 800);
 
   // Adding circles to an array
-  for(let i=0; i<10; i++){
+  for(let i=0; i<6; i++){
     balloons[i] = new Balloon(random(280,550), random(380,520), random(15,30));
   }
 
   // Adding squares to an array
-  for(let s=0; s<10; s++){
+  for(let s=0; s<6; s++){
     squares[s] = new Square(random(780, 920), random(380,520), random(15,40));
   }
 
@@ -78,12 +78,12 @@ function setup() {
 
 
   // Slider for balloons
-  sliderBalloon = createSlider(0,10,2);
+  sliderBalloon = createSlider(0,6,2);
   sliderBalloon.position(270,700);
   sliderBalloon.style("width","200px");
   sliderBalloon.addClass("balloonSlider");
   // Slider for squares
-  sliderSquare = createSlider(0,10,2);
+  sliderSquare = createSlider(0,6,2);
   sliderSquare.position(730,700);
   sliderSquare.style("width", "200px");
   sliderSquare.addClass("squareSlider");
